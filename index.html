@@ -11,36 +11,27 @@
   </head>
   <body>
     <header class="header">
-      <nav class="menu header__menu">
-        <ul class="menu__links-list">
-          <li class="menu__links-list-item menu__links-list-item_no-bullit">
-            <a class="menu__link link-alt-bottom-line menu__link_active">главная</a>
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+            <a class="header__link link header__link_active">главная</a>
           </li>
-          <li class="menu__links-list-item">
-            <a class="link-alt-bottom-line" href="#0"
-              >посмотреть лоты</a
-            >
+          <li class="header__links-list-item">
+            <a class="link" href="#0">посмотреть лоты</a>
           </li>
-          <li class="menu__links-list-item menu__links-list-item_adjust-left">
-            <a class="link-alt-bottom-line" href="#0">об аукционе</a>
+          <li class="header__links-list-item">
+            <a class="link" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
       <a class="header__logo">
-        <img
-          src="images/logo-black.svg"
-          alt="логотип проекта"
-        />
+        <img src="images/logo-black.svg" alt="логотип проекта" />
       </a>
       <address class="contacts header__contacts">
-        <a class="contacts__tel link-alt-bottom-line" href="tel:+70000000"
-          >+9 999 555 5555</a
-        ><br />
-        <a
-          class="contacts__mail link-alt-bottom-line"
-          href="mailto:mail@example.com"
+        <a class="contacts__link link" href="tel:+70000000">+9 999 555 5555</a>
+        <a class="contacts__link link" href="mailto:mail@example.com"
           >info@sobaka.ge</a
-        ><br />
+        >
         <span class="contacts__text"
           >наб. Принсенграхт 263-<br />
           265, Амстердам</span
@@ -53,17 +44,15 @@
         <div class="cover__content">
           <h1 class="cover__title">
             <span class="aligned-text">оно</span>
-            <span class="cover__second-word aligned-text aligned-text_center"
-              >тебе</span
-            >
-            <span class="cover__third-word aligned-text aligned-text_right"
-              >надо</span
+            <span class="aligned-text aligned-text_center">тебе</span>
+            <span class="aligned-text aligned-text_right"
+              >над<span class="no-letter-spacing">о</span></span
             >
           </h1>
           <div class="cover__description">
-            <h2 class="cover__description-text">
+            <p class="cover__description-text">
               Аукцион вещей, в которые никто не верил
-            </h2>
+            </p>
             <button class="bet-button">Сделать ставку</button>
           </div>
         </div>
@@ -128,91 +117,75 @@
             </a>
           </li>
         </ul>
-        <div class="lots__look-more">
-          <a class="lots__look-more-link link-alt-bottom-line" href="#0"
-            >посмотреть больше</a
-          >
-        </div>
+        <a class="lots__look-more-link link" href="#0">посмотреть больше</a>
       </section>
       <section class="about">
-        <div class="about__column about__column_padding-top_35px">
+        <div class="about__column">
           <div class="about__logo">
             <a class="about__logo-link">
-              <img
-                src="images/logo-white.svg"
-                alt="логотип проекта"
-              />
+              <img src="images/logo-white.svg" alt="логотип проекта" />
             </a>
           </div>
         </div>
-        <div class="about__column about__column_padding-top_134px">
+        <div class="about__column">
           <h2 class="about__title">Об аукционе</h2>
-          <p class="about__text about__text_margin-bottom">
-            Здесь вы не встретите очередное пафосное собрание невероятно
-            дорогого антиквариата. Наши лоты вообще не должны были попасть<br />ни
-            на один аукцион. Потому что кому нужен дневник девочки-подростка или
-            картина, которую может нарисовать даже ребёнок? Кому нужны все эти
-            странные вещи, созданные любителями?
-          </p>
-          <p class="about__text">
-            Слишком сложные или, наоборот, слишком простые. Опережающие своё
-            время. В пух и прах растерзанные критиками. Непринятые и непонятые.
-            Когда-то они казались просто неудачными. Но, несмотря<br />
-            на критику, кажущуюся простоту или сложность, сейчас без этих лотов
-            невозможно представить современную культуру. Когда в эти вещи не
-            верил никто, продолжали верить их создатели. И сейчас эти лоты стали
-            культовыми.
-          </p>
+          <div class="about__content">
+            <p class="about__text">
+              Здесь вы не встретите очередное пафосное собрание невероятно
+              дорогого антиквариата. Наши лоты вообще не должны были попасть<br />ни
+              на один аукцион. Потому что кому нужен дневник девочки-подростка
+              или картина, которую может нарисовать даже ребёнок? Кому нужны все
+              эти странные вещи, созданные любителями?
+            </p>
+            <p class="about__text">
+              Слишком сложные или, наоборот, слишком простые. Опережающие своё
+              время. В пух и прах растерзанные критиками. Непринятые и
+              непонятые. Когда-то они казались просто неудачными. Но,
+              несмотря<br />
+              на критику, кажущуюся простоту или сложность, сейчас без этих
+              лотов невозможно представить современную культуру. Когда в эти
+              вещи не верил никто, продолжали верить их создатели. И сейчас эти
+              лоты стали культовыми.
+            </p>
+          </div>
         </div>
       </section>
     </main>
     <footer class="footer">
       <address class="contacts footer__contacts">
-        <a class="contacts__tel link-alt-bottom-line" href="tel:+70000000"
-          >+9 999 555 5555</a
-        ><br />
-        <a
-          class="contacts__mail link-alt-bottom-line"
-          href="mailto:mail@example.com"
+        <a class="contacts__link link" href="tel:+70000000">+9 999 555 5555</a>
+        <a class="contacts__link link" href="mailto:mail@example.com"
           >info@sobaka.ge</a
-        ><br />
+        >
         <span class="contacts__text">наб. Принсенграхт 263-265, Амстердам</span>
       </address>
-      <nav class="menu footer__menu">
-        <ul class="menu__links-list">
-          <li class="menu__links-list-item">
-            <a class="menu__link link-alt-bottom-line menu__link_active">главная</a>
+      <nav class="footer__menu">
+        <ul class="footer__links-list">
+          <li class="footer__links-list-item">
+            <a class="footer__link link footer__link_active">главная</a>
           </li>
-          <li class="menu__links-list-item">
-            <a class="menu__link link-alt-bottom-line" href="#0"
-              >посмотреть лоты</a
-            >
+          <li class="footer__links-list-item">
+            <a class="footer__link link" href="#0">посмотреть лоты</a>
           </li>
-          <li class="menu__links-list-item menu__links-list-item_adjust-left">
-            <a class="menu__link link-alt-bottom-line" href="#0">об аукционе</a>
+          <li class="footer__links-list-item">
+            <a class="footer__link link" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
       <ul class="footer__social-list">
-        <li>
+        <li class="footer__social-list-item">
           <a>
-            <div class="footer__social-link-container">
-              <img src="images/yt.svg" alt="иконка ютуб" />
-            </div>
+            <img src="images/yt.svg" alt="иконка ютуб" />
           </a>
         </li>
-        <li>
+        <li class="footer__social-list-item">
           <a>
-            <div class="footer__social-link-container">
-              <img src="images/vk.svg" alt="иконка в контакте" />
-            </div>
+            <img src="images/vk.svg" alt="иконка в контакте" />
           </a>
         </li>
-        <li>
+        <li class="footer__social-list-item">
           <a>
-            <div class="footer__social-link-container">
-              <img src="images/pinterest.svg" alt="иконка пинтерест" />
-            </div>
+            <img src="images/pinterest.svg" alt="иконка пинтерест" />
           </a>
         </li>
       </ul>
